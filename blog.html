@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blog Updates</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Blog Updates</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="blog.html">Blogs</a>
+<a href="qa.html">Q&A</a>
+</nav>
+</header>
+
+<section class="blogUpload">
+
+<h2>Write Blog</h2>
+
+<input type="text" id="title" placeholder="Blog Title">
+
+<textarea id="content" placeholder="Write your blog"></textarea>
+
+<input type="file" id="imageUpload">
+
+<button onclick="addBlog()">Publish Blog</button>
+
+</section>
+
+<section>
+
+<h2>All Blogs</h2>
+<div id="blogList"></div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
